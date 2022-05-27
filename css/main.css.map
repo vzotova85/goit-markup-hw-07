@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AACA,YAAY;AACZ,oCAAoC",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_vars.scss",
+        "../sass/utils/_placeholders.scss",
+        "../sass/utils/_mixins.scss",
+        "../sass/components/_logo.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <title>WebStudio</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <!--Company Logo-->
+                <a href="./index.html" class="logo header__logo"><span class="logo__part">Web</span>Studio</a>
+    
+                <!--Menu-->
+                <ul class="nav__list list">
+                    <li class="nav__item item"><a href="./index.html"
+                            class="nav__link link">Студия</a></li>
+                    <li class="nav__item item"><a href="./portfolio.html" class="nav__link nav__link--current link current">Потрфолио</a></li>
+                    <li class="nav__item item"><a href="#" class="nav__link link">Контакты</a></li>
+                </ul>
+            </nav>
+    
+            <!--Contacts-->
+            <ul class="contacts list">
+                <li class="item email"><a href="mailto:info@devstudio.com" class="link">
+                        <svg class="icon">
+                            <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>info@devstudio.com</a></li>
+                <li class="item tel"><a href="tel:+380961111111" class="link">
+                        <svg class="icon">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!--Портфолио-->
+        <section class="section portfolio">
+            <div class="container">
+                <!--Фильтр-->
+                <ul class="filter__list list">
+                    <li class="filter__item item"><button type="button" class="button button--secondary">Все</button></li>
+                    <li class="filter__item item"><button type="button" class="button button--secondary">Веб-сайты</button></li>
+                    <li class="filter__item item"><button type="button" class="button button--secondary">Приложения</button></li>
+                    <li class="filter__item item"><button type="button" class="button button--secondary">Дизайн</button></li>
+                    <li class="filter__item item"><button type="button" class="button button--secondary">Маркетинг</button></li>
+                </ul>
+                
+                <ul class="portfolio__list list">
+                    <li class="portfolio__item item">
+                        <a href="" class="portfolio__link link">
+                            <div class="portfolio__thumb">
+                                <img src="./images/imgprtf1.jpg" alt="открытый ноутбук с карточками команды" width="370">
+                                <div class="portfolio__overlay">
+                                    <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                                        получить
+                                        исчерпывающие сведения о компании или частном лице.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="portfolio__text">
+                                <h3>Технокряк</h3>
+                                <p>Веб-сайт</p>
+                            </div>
+                        </a>
+                          
+                    </li>
+                    <li class="item">
+                        <a href="" class="link">
+                            <div class="thumb">
+                                <img src="./images/imgprtf2.jpg" alt="два баскетболиста с мячом" width="370">
+                                <div class="overlay">
+                                    <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                                        получить
+                                        исчерпывающие сведения о компании или частном лице.</p>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3>Постер New Orleans vs Golden Star</h3>
+                                <p>Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="link">
+                            <div class="thumb">
+                                <img src="./images/imgprtf3.jpg" alt="лого ресторана Seafood" width="370">
+                                <div class="overlay">
+                                    <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                                        получить
+                                        исчерпывающие сведения о компании или частном лице.</p>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3>Ресторан Sea Food</h3>
+                                <p>Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="link">
+                            <div class="thumb">
+                                <img src="./images/imgprtf4.jpg" alt="наушники" width="370">
+                                <div class="overlay">
+                                    <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                                        получить
+                                        исчерпывающие сведения о компании или частном лице.</p>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3>Проект Prime</h3>
+                                <p>Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="link">
+                            <div class="thumb">
+                                <img src="./images/imgprtf5.jpg" alt="коробки" width="370">
+                                <div class="overlay">
+                                    <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                                        получить
+                                        исчерпывающие сведения о компании или частном лице.</p>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3>Проект Boxes</h3>
+                                <p>Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="link">
+                            <div class="thumb">
+                                <img src="./images/imgprtf6.jpg" alt="монитор" width="370">
+                                <div class="overlay">
+                                    <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                                        получить
+                                        исчерпывающие сведения о компании или частном лице.</p>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3>Inspiration has no Borders</h3>
+                                <p>Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="link">
+                            <div class="thumb">
+                                <img src="./images/imgprtf7.jpg" alt="открытый журнал" width="370">
+                                <div class="overlay">
+                                    <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                                        получить
+                                        исчерпывающие сведения о компании или частном лице.</p>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3>Издание Limited Edition</h3>
+                                <p>Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="link">
+                            <div class="thumb">
+                                <img src="./images/imgprtf8.jpg" alt="этикетка" width="370">
+                                <div class="overlay">
+                                    <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                                        получить
+                                        исчерпывающие сведения о компании или частном лице.</p>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3>Проект Lab</h3>
+                                <p>Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="" class="link">
+                            <div class="thumb">
+                                <img src="./images/imgprtf9.jpg" alt="ноутбук">
+                                <div class="overlay">
+                                    <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                                        получить
+                                        исчерпывающие сведения о компании или частном лице.</p>
+                                </div>
+                            </div>
+                            <div class="text">
+                                <h3>Growing Business</h3>
+                                <p>Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <!--Company logo-->
+            <div class="contacts-ft">
+                <a href="./index.html" class="logo footer__logo"><span class="logo__part">Web</span>Studio</a>
+    
+                <!--Contacts-->
+                <address class="address">
+                    <ul class="address__list list">
+                        <li class="address__item item"><a href="" class="address__link link">г. Киев, пр-т Леси Украинки,
+                                26</a></li>
+                        <li class="address__item item"><a href="mailto:info@devstudio.com"
+                                class="address__link link">info@devstudio.com</a></li>
+                        <li class="address__item item"><a href="tel:+380961111111" class="address__link link">+38 096 111 11
+                                11</a></li>
+                    </ul>
+                </address>
+            </div>
+    
+            <!--Social media-->
+            <div class="footer-sm">
+                <h3> ПРИСОЕДИНЯЙТЕСЬ</h3>
+                <ul class="sm">
+                    <li class="footer-sm__item sm__item item">
+                        <a href="" class="footer-sm__link sm__link link">
+                            <svg class="footer-sm__icon sm__icon icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-sm__item sm__item item">
+                        <a href="" class="footer-sm__link sm__link link">
+                            <svg class="footer-sm__icon sm__icon icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-sm__item sm__item item">
+                        <a href="" class="footer-sm__link sm__link link">
+                            <svg class="footer-sm__icon sm__icon icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-sm__item sm__item item">
+                        <a href="" class="footer-sm__link sm__link link">
+                            <svg class="footer-sm__icon sm__icon icon" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="subscribe">
+                <h3>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+                <form action="modal-form">
+                    <div class="subscribe__input-wrap input-wrap">
+                        <label for="user-email" class="modal-label"></label>
+                        <input type="email" class="subscribe__modal-input" name="user-email" id="user-email"
+                            placeholder="E-mail">
+                        <button type="subbmit" class="button button--primary">Подписаться
+                            <svg class="subscribe__icon icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+    </footer>
+
+</body>    
+</html>
