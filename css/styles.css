@@ -570,11 +570,11 @@ h6 {
 
 /*Portfolio*/
 /*фильтр*/
-.filter__list .item:not(:last-child) {
+.filter__item:not(:last-child) {
     margin-right: 8px;
 }
 
-.filter-list {
+.filter__list {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
