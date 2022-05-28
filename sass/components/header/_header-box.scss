@@ -1,0 +1,10 @@
+.header {
+    background-color: $white-color;
+}
+
+.header__container {
+    @extend %container;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $border-color;
+ }

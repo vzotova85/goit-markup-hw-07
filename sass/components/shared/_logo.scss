@@ -1,0 +1,16 @@
+.header__logo {
+    @extend %logo;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+}
+
+.logo__part {
+    color: $accent-color;
+}
+
+.footer__logo {
+    @extend %logo;
+    color: $white-color;
+    margin-bottom: 20px;
+}

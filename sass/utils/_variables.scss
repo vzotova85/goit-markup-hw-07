@@ -1,0 +1,52 @@
+
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$accent-color: #2196F3;
+$white-color: #FFFFFF;
+$secondary-bg-color: #F5F4FA;
+$primary-bg-color: #E5E5E5;
+$footer-bg-color: #2F303A;
+$border-color: #ECECEC;
+$icon-color: #AFB1B8;
+
+
+$timimg-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+$font-main: 'Roboto', sans-serif;
+$letter-spacing: 0.03em;
+
+$font-family-logo: 'Raleway', sans-serif;
+$font-size-logo: 26px;
+$font-weight-logo: 700;
+$line-height-logo: 1.12;
+
+
+
+body {
+    background-color: $primary-bg-color;
+    color: $primary-text-color;
+    font-family: $font-main;
+    letter-spacing: $letter-spacing;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $title-text-color;
+        margin-top: 0;
+        margin-bottom: 0;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;
+}

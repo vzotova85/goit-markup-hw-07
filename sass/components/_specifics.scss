@@ -1,0 +1,36 @@
+.specifics__title {
+    display: none;
+}
+
+.specifics__list {
+    display: flex;
+}
+
+.specifics__item {
+    margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.specifics__iconbox {
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: $secondary-bg-color;
+}
+
+.specifics__icon {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.specifics h3 {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.17;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
