@@ -15,7 +15,11 @@ to do
 
  work on contacts in header
 
- buttons - fix classes and scss
+ check all the containers in all sections
+
+ .beckdrop.is-hidden check if works in _modal.scss
+
+
 
 
 

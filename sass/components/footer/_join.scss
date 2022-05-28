@@ -1,0 +1,20 @@
+// Footer
+
+.footer-sm {
+    margin-left: 70px;
+    padding-top: 12px;
+}
+
+.footer-sm__link {
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms $timimg-function;
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+    }
+}
+
+.footer-sm__icon {
+    fill: $white-text-color;
+}

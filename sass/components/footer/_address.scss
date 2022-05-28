@@ -1,0 +1,20 @@
+.address__link {
+    display: block;
+    color: $primary-text-color;
+    transition: color 250ms $timimg-function;
+
+    &:hover, &:focus {
+        color: $white-color;
+    }
+}
+
+.address__item {
+
+    &:not(:last-child) {
+        margin-bottom: 9px;
+    }
+
+    &:first-child {
+        margin-top: 20px;
+    }
+}

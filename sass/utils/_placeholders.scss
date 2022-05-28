@@ -11,23 +11,6 @@
     cursor: pointer;
     border-radius: 4px;
     text-align: center;
-
-    &--primary {
-        color: $white-text-color;
-        background-color: $accent-color;
-        border-color: $accent-color;
-        font-family: inherit;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
-        letter-spacing: 0.06em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        width: 200px;
-        height: 50px;
-    }
 }
 
 %list {
