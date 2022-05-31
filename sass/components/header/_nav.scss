@@ -4,6 +4,7 @@
 }
 
 .nav__list {
+    @extend %list;
     display: flex;
 }
 
@@ -16,6 +17,7 @@
 }
 
 .nav__link {
+    @extend %link;
     position: relative;
 
     display: block;

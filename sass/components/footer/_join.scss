@@ -6,6 +6,7 @@
 }
 
 .footer-sm__link {
+    @extend %link;
     background: rgba(255, 255, 255, 0.1);
     transition: background-color 250ms $timimg-function;
 
@@ -16,5 +17,5 @@
 }
 
 .footer-sm__icon {
-    fill: $white-text-color;
+    fill: $white-color;
 }

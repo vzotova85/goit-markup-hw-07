@@ -1,11 +1,13 @@
 .portfolio {
-    
+    background-color: $white-color;
+
     img {
         margin-bottom: 0;
     }
 }
 
 .portfolio__list {
+    @extend %list;
     display: flex;
     flex-wrap: wrap;
 
@@ -28,6 +30,7 @@
 }
 
 .portfolio__link {
+    @extend %link;
     display: block;
     transition: box-shadow 250ms $timimg-function;
 
@@ -82,7 +85,7 @@
 }
 
 
-.portfolio__link:hover .overlay,
-.portfolio__link:focus .overlay {
-    transform: translatex(0);
-}
+// .portfolio__link:hover .overlay,
+// .portfolio__link:focus .overlay {
+//     transform: translatex(0);
+// }

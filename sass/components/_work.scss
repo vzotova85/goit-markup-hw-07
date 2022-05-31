@@ -1,6 +1,7 @@
 .work {
     @extend %section;
     padding-top: 0;
+    background-color: $white-color;
 
     p {
         font-size: 14px;
@@ -21,6 +22,7 @@
 }
 
 .work__list {
+    @extend %list;
     display: flex;
 }
 

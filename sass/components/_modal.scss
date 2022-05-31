@@ -123,19 +123,20 @@
 }
 
 .check-test__link {
+    @extend %link;
     margin-left: 5px;
 }
 
 .modal__check {
     display: none;
-}
 
-.modal__check:checked + .check-text::before {
-    background-color: $accent-color;
-    border: none;
-    background-image: url(../images/check.svg);
-    background-position: center;
-    background-repeat: no-repeat;
+    &:checked + &::before {
+        background-color: $accent-color;
+        border: none;
+        background-image: url(../images/check.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
 .modal__input:focus + .modal__icon {

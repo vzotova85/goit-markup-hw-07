@@ -1,6 +1,7 @@
 
 .specifics {
     @extend %section;
+    background-color: $white-color;
 
     h3 {
         text-transform: uppercase;
@@ -23,6 +24,7 @@
 }
 
 .specifics__list {
+    @extend %list;
     display: flex;
 }
 

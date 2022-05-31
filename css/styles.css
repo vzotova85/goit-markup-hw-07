@@ -619,6 +619,7 @@ h6 {
 }
 
 .portfolio__list p {
+    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.88;
     margin-top: 0;

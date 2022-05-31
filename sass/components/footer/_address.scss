@@ -1,4 +1,5 @@
 .address__link {
+    @extend %link;
     display: block;
     color: $primary-text-color;
     transition: color 250ms $timimg-function;
