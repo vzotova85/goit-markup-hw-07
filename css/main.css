@@ -785,6 +785,7 @@ h6 {
 
 .address__list {
   padding-left: 0;
+  font-style: normal;
 }
 
 .address__item:not(:last-child) {
