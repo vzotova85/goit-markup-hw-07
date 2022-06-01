@@ -4,9 +4,14 @@
     color: $primary-text-color;
     transition: color 250ms $timimg-function;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         color: $white-color;
     }
+}
+
+.address__list {
+    padding-left: 0;
 }
 
 .address__item {

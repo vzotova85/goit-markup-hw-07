@@ -3,6 +3,14 @@
     background-color: $white-color;
 }
 
+.clients__container {
+    @extend %container;
+}
+
+.clients__title {
+    @extend %section__title;
+}
+
 .clients__list {
     @extend %list;
     display: flex;
@@ -22,11 +30,19 @@
     color: $icon-color;
     transition: color 250ms $timimg-function;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         color: $accent-color;
         outline-color: $accent-color;
     }
 }
+
+.clients__item {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
 
 .clients__icon {
     margin: 16px 32px;

@@ -47,7 +47,8 @@
         opacity: 1;
     }
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         color: $accent-color;
     }
 }

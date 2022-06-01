@@ -838,7 +838,7 @@ h6 {
     display: none;
 }
 
-.modal__check:checked +.check-text::before {
+.modal__check:checked + .check-text::before {
     background-color: var(--accent-color);
     border: none;
     background-image: url(../images/check.svg);

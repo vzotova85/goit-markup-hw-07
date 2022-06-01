@@ -19,7 +19,12 @@
     }
 }
 
+.specifics__container {
+    @extend %container;
+}
+
 .specifics__title {
+    @extend %section__title;
     display: none;
 }
 

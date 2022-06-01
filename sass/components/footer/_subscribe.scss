@@ -11,9 +11,9 @@
         height: 50px;
 
         &::placeholder {
-                color: $icon-color;
-            }
-        
+            color: $icon-color;
+        }
+
         &:focus {
             color: $icon-color;
             padding-left: 16px;

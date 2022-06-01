@@ -21,6 +21,14 @@
     }
 }
 
+.work__title {
+    @extend %section__title;
+}
+
+.work__container {
+    @extend %container;
+}
+
 .work__list {
     @extend %list;
     display: flex;
