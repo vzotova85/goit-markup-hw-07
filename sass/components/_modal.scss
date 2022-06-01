@@ -133,7 +133,7 @@
     &:checked+.check-text::before {
         background-color: $accent-color;
         border: none;
-        background-image: url(/images/check.svg);
+        background-image: url(../images/check.svg);
         background-position: center;
         background-repeat: no-repeat;
     }

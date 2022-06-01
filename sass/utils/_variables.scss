@@ -20,30 +20,3 @@ $font-size-logo: 26px;
 $font-weight-logo: 700;
 $line-height-logo: 1.12;
 
-
-
-body {
-    background-color: $primary-bg-color;
-    color: $primary-text-color;
-    font-family: $font-main;
-    letter-spacing: $letter-spacing;
-}
-
-ul {
-    list-style: none;
-}
-
-img {
-    display: block;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: $title-text-color;
-    margin-top: 0;
-    margin-bottom: 0;
-}
